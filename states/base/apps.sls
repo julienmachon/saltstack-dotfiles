@@ -1,3 +1,4 @@
 include:
+  - docker
   - chrome
   - vscode
