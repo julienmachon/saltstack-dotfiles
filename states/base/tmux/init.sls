@@ -14,5 +14,7 @@ tmux-config:
   file.managed:
     - name: {{ grains.homedir }}/.tmux.conf
     - source: salt:///tmux/tmux.conf
+    - template: jinja
+    - makedirs: True
     - user: {{ grains.user }}
     - group: {{ grains.user }}
