@@ -1,6 +1,6 @@
 
 file_roots:
   base:
-    - ./states/agnostic
+    - ./states/base
   debian:
     - ./states/debian
