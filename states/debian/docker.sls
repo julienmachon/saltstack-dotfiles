@@ -1,3 +1,6 @@
+# I would normaly use the line below, but right now, no PPA for Ubuntu artful. Using xenial instead.
+# - name: deb [arch=amd64] https://download.docker.com/linux/ubuntu {{ grains.oscodename }} stable
+
 docker-ppa:
   pkgrepo.managed:
     - humanname: Docker CE PPA

@@ -3,8 +3,7 @@ vscode-ppa:
     - humanname: Visual Studio Code PPA
     - name: deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main
     - file: /etc/apt/sources.list.d/vscode.list
-    - gpgkey: https://packages.microsoft.com/keys/microsoft.asc
-    - keyid: D2C19886 341D9410
+    - key_url: https://packages.microsoft.com/keys/microsoft.asc
 
 vscode-install:
   pkg.latest:
