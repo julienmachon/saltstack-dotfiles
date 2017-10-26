@@ -4,6 +4,7 @@ docker-ppa:
     - name: deb [arch=amd64] https://download.docker.com/linux/ubuntu stable main
     - file: /etc/apt/sources.list.d/docker.list
     - gpgkey: https://download.docker.com/linux/ubuntu/gpg
+    - keyid: 0EBFCD88
 
 docker-install:
   pkg.latest:
