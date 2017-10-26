@@ -1,4 +1,26 @@
+[:b497841f-adcf-48cb-a355-7ad4dc999c66]
+foreground-color='#CDD3DE'
+visible-name='julien.codes'
+palette=['#263238', '#EC5F67', '#8BD649', '#FFCC00', '#89DDFF', '#82AAFF', '#80CBC4', '#CDD3DE', '#707880', '#EC5F67', '#8BD649', '#FFCC00', '#89DDFF', '#82AAFF', '#80CBC4', '#FFFFFF']
+cursor-background-color='#CDD3DE'
+use-system-font=false
+cursor-colors-set=true
+use-theme-colors=false
+use-transparent-background=false
+font='DroidSansMonoForPowerline Nerd Font 10'
+cursor-foreground-color='#263238'
+use-theme-transparency=false
+use-theme-background=false
+bold-color-same-as-fg=true
+bold-color='#CDD3DE'
+background-color='#263238'
+background-transparency-percent=32
+scrollbar-policy='never'
+
 [/]
+list=['b497841f-adcf-48cb-a355-7ad4dc999c66']
+
+[:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
 visible-name='julien.codes'
 background-transparency-percent=32
 use-theme-colors=true
