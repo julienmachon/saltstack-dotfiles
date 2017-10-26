@@ -1,0 +1,23 @@
+# GitHub Personal
+Host github.com
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_rsa_julienmachon
+
+# GitLab Personal
+Host gitlab.com
+  HostName gitlab.com
+  User git
+  IdentityFile ~/.ssh/id_rsa_julienmachon
+
+# PPL
+Host bitbucket.uk.novamedia.com
+  HostName bitbucket.uk.novamedia.com
+  User git
+  IdentityFile ~/.ssh/id_rsa_postcodelottery
+
+# GT8
+Host code.devtech.gt8.online
+  HostName code.devtech.gt8.online
+  User git
+  IdentityFile ~/.ssh/id_rsa_gt3
