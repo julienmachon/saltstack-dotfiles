@@ -10,7 +10,7 @@ base16-shell:
 gnome-terminal-profile-tmp:
   file.managed:
     - name: {{ grains.homedir }}/.tmp/julien.dconf
-    - source: salt:///setupu/julien.dconf
+    - source: salt:///setup/julien.dconf
     - template: jinja
     - makedirs: True
     - user: {{ grains.user }}
