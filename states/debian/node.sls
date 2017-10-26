@@ -5,7 +5,7 @@ node-ppa:
     - file: /etc/apt/sources.list.d/nodesource.list
     - key_url: https://deb.nodesource.com/gpgkey/nodesource.gpg.key
 
-docker-install:
+node-install:
   pkg.latest:
     - require:
       - pkgrepo: node-ppa
