@@ -19,6 +19,8 @@ gnome-terminal-profile-tmp:
 gnome-terminal-profile:
   cmd.run:
     - name: dconf load /org/gnome/terminal/legacy/profiles:/ < {{ grains.homedir }}/.tmp/julien.dconf
+    - user: {{ grains.user }}
+    - group: {{ grains.user }}
     
 install-base-packages:
   pkg.installed:
