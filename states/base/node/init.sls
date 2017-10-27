@@ -4,6 +4,7 @@ include:
 fix-npm-permission:
   cmd.script:
     - name: salt:///node/fixnpmpermissions
+    - template: jinja
     - user: {{ grains.user }}
     - group: {{ grains.user }}
 
