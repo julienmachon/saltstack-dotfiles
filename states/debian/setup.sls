@@ -8,6 +8,9 @@ packages-base:
       - build-essential
       - uuid-runtime
       - curl
+      - xfonts-utils
+      - fonts-droid
+      - fonts-hack-ttf
       - paper-icon-theme
       - paper-cursor-theme
       - paper-gtk-theme
