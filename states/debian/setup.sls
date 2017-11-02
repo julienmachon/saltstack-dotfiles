@@ -1,6 +1,6 @@
 packages-ppa:
   pkgrepo.managed:
-    - ppa: ppa:snwh/pulp
+    - ppa: snwh/pulp
 
 packages-base:
   pkg.installed:
@@ -8,12 +8,12 @@ packages-base:
       - build-essential
       - uuid-runtime
       - curl
+      - chrome-gnome-shell
       - xfonts-utils
-      - fonts-droid
       - fonts-hack-ttf
       - paper-icon-theme
       - paper-cursor-theme
-      - paper-gtk-theme
+      #- paper-gtk-theme
 
 packages-useless:
   pkg.purged:
