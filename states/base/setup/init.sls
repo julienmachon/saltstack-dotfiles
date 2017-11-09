@@ -28,7 +28,7 @@ install-base-packages:
     - pkgs:
       - gnome-tweak-tool
 {% else %}
-iterm-profile
+iterm-profile:
   file.managed:
     - name: {{ grains.homedir }}/Library/Preferences
     - source: salt:///setup/julien.dconf

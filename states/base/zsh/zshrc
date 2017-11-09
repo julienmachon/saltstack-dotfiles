@@ -96,4 +96,6 @@ alias dm=docker-machine
 alias dm-init='_(){ eval $(docker-machine env $1) };_'
 alias composer='docker run -it --rm -v $HOME:$HOME -v /etc/passwd:/etc/passwd -e COMPOSER_HOME="$HOME/.composer" -u $UID --net=host -w `pwd` luciam91/alpine-docker-composer'
 
+alias vim=nvim
+
 [ -f {{ grains.homedir }}/.fzf.zsh ] && source {{ grains.homedir }}/.fzf.zsh
