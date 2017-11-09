@@ -2,4 +2,8 @@
 
 Run with `./init.sh`
 
-Heavily inspired from [gitlab.com/rawkode/saltstack-dotfiles](gitlab.com/rawkode/saltstack-dotfiles)
+It will install saltstack (and brew on MacOS) and install + configure all my apps after sometime.
+
+Requires a restart to reload profiles and groups. 
+
+Heavily inspired from [rawkode](https://gitlab.com/rawkode/saltstack-dotfiles)

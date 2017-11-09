@@ -5,3 +5,6 @@ base:
     - setup
     - cli
     - apps
+  
+  ’G@os:MacOS’:
+    - iterm

@@ -7,6 +7,7 @@ base16-shell:
     - name: https://github.com/chriskempson/base16-shell.git
     - target: {{ grains.homedir }}/.config/base16-shell
 
+{% if grains.os != 'MacOS' %}
 gnome-terminal-profile-tmp:
   file.managed:
     - name: {{ grains.homedir }}/.tmp/julien.dconf
@@ -26,3 +27,13 @@ install-base-packages:
   pkg.installed:
     - pkgs:
       - gnome-tweak-tool
+{% else %}
+iterm-profile
+  file.managed:
+    - name: {{ grains.homedir }}/Library/Preferences
+    - source: salt:///setup/julien.dconf
+    - template: jinja
+    - makedirs: True
+    - user: {{ grains.user }}
+    - group: {{ grains.user }}
+{% endif %}
