@@ -14,6 +14,7 @@ packages-base:
       - paper-icon-theme
       - paper-cursor-theme
       #- paper-gtk-theme
+      - arc-theme
 
 packages-useless:
   pkg.purged:
