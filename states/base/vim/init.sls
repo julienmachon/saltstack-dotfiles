@@ -1,6 +1,11 @@
 neovim-install-pip:
-  pkg.installed:
-    - name: python-pip
+    {% if grains.os != 'MacOS' %}
+    pkg.installed:
+      - name: python-pip
+    {% else %}
+    pkg.installed:
+      - name: python3
+    {% endif %}
 
 neovim-pip-neovim:
   pip.installed:

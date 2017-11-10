@@ -30,8 +30,8 @@ install-base-packages:
 {% else %}
 iterm-profile:
   file.managed:
-    - name: {{ grains.homedir }}/Library/Preferences
-    - source: salt:///setup/julien.dconf
+    - name: {{ grains.homedir }}/Library/Preferences/com.googlecode.iterm2.plist
+    - source: salt:///setup/com.googlecode.iterm2.plist
     - template: jinja
     - makedirs: True
     - user: {{ grains.user }}
