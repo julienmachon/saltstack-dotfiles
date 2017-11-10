@@ -22,7 +22,7 @@ gnome-terminal-profile:
     - name: dconf load /org/gnome/terminal/legacy/profiles:/ < {{ grains.homedir }}/.tmp/julien.dconf
     - user: {{ grains.user }}
     - group: {{ grains.user }}
-    
+
 install-base-packages:
   pkg.installed:
     - pkgs:

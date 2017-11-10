@@ -4,5 +4,5 @@ file_roots:
     - ./states/base
   debian:
     - ./states/debian
-  MacOS:
-    - ./states/MacOS
+  macos:
+    - ./states/macos
