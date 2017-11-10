@@ -5,7 +5,11 @@ neovim-install-pip:
 neovim-pip-neovim:
   pip.installed:
     - name: neovim
+    {% if grains.os != 'MacOS' %}
     - bin_env: /usr/bin/pip3
+    {% else %}
+    - bin_env: /usr/local/bin/pip3
+    {% endif %}
     - require:
       - pkg: neovim-install-pip
 
