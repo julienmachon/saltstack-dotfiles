@@ -9,8 +9,7 @@ packages-base:
       - uuid-runtime
       - curl
       - chrome-gnome-shell
-      - xfonts-utils
-      - fonts-hack-ttf
+      - xclip
       - paper-icon-theme
       - paper-cursor-theme
       #- paper-gtk-theme
