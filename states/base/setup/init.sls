@@ -7,6 +7,15 @@ base16-shell:
     - name: https://github.com/chriskempson/base16-shell.git
     - target: {{ grains.homedir }}/.config/base16-shell
 
+ternjs-profile:
+  file.managed:
+    - name: {{ grains.homedir }}/.tern-config
+    - source: salt:///setup/tern-config
+    - template: jinja
+    - makedirs: True
+    - user: {{ grains.user }}
+    - group: {{ grains.user }}
+
 {% if grains.os != 'MacOS' %}
 gnome-terminal-profile-tmp:
   file.managed:

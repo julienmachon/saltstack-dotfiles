@@ -1,0 +1,10 @@
+{
+  "defs": [
+    "browser",
+    "ecma6",
+    "ecma7"
+  ],
+  "plugins": {
+    "node": {}
+  }
+}
