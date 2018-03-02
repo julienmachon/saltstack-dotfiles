@@ -12,8 +12,8 @@ BASE16_SHELL=$HOME/.config/base16-shell/
 source $HOME/.config/base16-shell/scripts/base16-materia.sh
 [ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"
 
-ZSH_TMUX_AUTOSTART=true
-ZSH_TMUX_AUTOCONNECT=false
+# ZSH_TMUX_AUTOSTART=true
+# ZSH_TMUX_AUTOCONNECT=false
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
