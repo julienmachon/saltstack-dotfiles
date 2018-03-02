@@ -761,7 +761,7 @@
 			<key>Window Type</key>
 			<integer>0</integer>
 			<key>Working Directory</key>
-			<string>/Users/robb</string>
+			<string>/Users/{{ grains.user }}</string>
 		</dict>
 		<dict>
 			<key>ASCII Anti Aliased</key>
@@ -977,7 +977,7 @@
 			<key>Disable Window Resizing</key>
 			<true/>
 			<key>Dynamic Profile Filename</key>
-			<string>/Users/robb/Library/Application Support/iTerm2/DynamicProfiles/default.json</string>
+			<string>/Users/{{ grains.user }}/Library/Application Support/iTerm2/DynamicProfiles/default.json</string>
 			<key>Flashing Bell</key>
 			<false/>
 			<key>Foreground Color</key>
@@ -1128,7 +1128,7 @@
 			<key>Window Type</key>
 			<integer>0</integer>
 			<key>Working Directory</key>
-			<string>/Users/robb</string>
+      <string>/Users/{{ grains.user }}</string>
 		</dict>
 		<dict>
 			<key>ASCII Anti Aliased</key>
@@ -1344,7 +1344,7 @@
 			<key>Disable Window Resizing</key>
 			<true/>
 			<key>Dynamic Profile Filename</key>
-			<string>/Users/robb/Library/Application Support/iTerm2/DynamicProfiles/default.json</string>
+      <string>/Users/{{ grains.user }}/Library/Application Support/iTerm2/DynamicProfiles/default.json</string>
 			<key>Dynamic Profile Parent Name</key>
 			<string>Light</string>
 			<key>Flashing Bell</key>
@@ -1521,7 +1521,7 @@
 			<key>Window Type</key>
 			<integer>1</integer>
 			<key>Working Directory</key>
-			<string>/Users/robb</string>
+			<string>/Users/{{ grains.user }}</string>
 		</dict>
 		<dict>
 			<key>ASCII Anti Aliased</key>
@@ -1737,7 +1737,7 @@
 			<key>Disable Window Resizing</key>
 			<true/>
 			<key>Dynamic Profile Filename</key>
-			<string>/Users/robb/Library/Application Support/iTerm2/DynamicProfiles/default.json</string>
+			<string>/Users/{{ grains.user }}/Library/Application Support/iTerm2/DynamicProfiles/default.json</string>
 			<key>Dynamic Profile Parent Name</key>
 			<string>Light</string>
 			<key>Flashing Bell</key>
@@ -1876,7 +1876,7 @@
 			<key>Window Type</key>
 			<integer>0</integer>
 			<key>Working Directory</key>
-			<string>/Users/robb</string>
+			<string>/Users/{{ grains.user }}</string>
 		</dict>
 	</array>
 	<key>NoSyncCommandHistoryHasEverBeenUsed</key>
@@ -1931,7 +1931,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/robb/.dotfiles/iterm2</string>
+	<string>/Users/{{ grains.user }}/.dotfiles/iterm2</string>
 	<key>PromptOnQuit</key>
 	<false/>
 	<key>SUAutomaticallyUpdate</key>
