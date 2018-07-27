@@ -8,6 +8,7 @@ packages-base:
       - build-essential
       - uuid-runtime
       - curl
+      - meld
       - chrome-gnome-shell
       - xclip
       - paper-icon-theme

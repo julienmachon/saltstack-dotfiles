@@ -1,8 +1,12 @@
 [user]
-	name = Julien Machon
-	email = julienmachon@gmail.com
+  name = Julien Machon
+  email = julienmachon@gmail.com
 [diff]
-	tool = vimdiff
+  tool = meld
+[difftool]
+  prompt = false
+[difftool "meld"]
+  cmd = meld "$LOCAL" "$REMOTE"
 [alias]
   st = status
   ci = commit -v
@@ -16,15 +20,20 @@
   ignored = !git ls-files -v | grep "^[[:lower:]]"
   prune-local = !git branch --merged | tr -d '*' | grep -v dev | xargs -n1 git branch -d
 [push]
-	default = current
+  default = current
 [pull]
-	default = current
+  default = current
 [color]
-	ui = true
+  ui = true
 [help]
-	autocorrect = 1
+  autocorrect = 1
 [core]
-	pager = less -r
-	editor = vim
+  pager = less -r
+  editor = nvim
 [pull]
-	rebase = true
+  rebase = true
+[merge]
+  tool = meld
+[mergetool "meld"]
+  cmd = meld "$LOCAL" "$BASE" "$REMOTE" --output "$MERGED"
+
